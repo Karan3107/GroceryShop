@@ -1,0 +1,24 @@
+.bg-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445),rgba(0,0,0,0.445)),url('file:///D:/Web_development/mini-project/client/src/background1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.home_container{
+    position: absolute !important;
+    top: 100px !important;
+    text-align:end !important;
+    color: #fff !important;
+}
+
+.home_container h1{
+    margin-left: 300px !important;
+    font-size: 4em !important;
+    word-spacing: 20px !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+}
+
+

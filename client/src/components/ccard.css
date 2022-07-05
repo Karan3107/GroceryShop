@@ -1,0 +1,68 @@
+.item-card{
+    margin: 30px 90px;
+    background-color: white;
+    width: 210px;
+    text-align: center;
+    box-shadow: 2px 4px 7px 0px rgba(0,0,0,0.49);
+    cursor: default;
+}
+
+.item-img img{
+    width: 100%;
+    height: 150px;
+}
+
+.item-content{
+    margin: 10px;
+}
+.item-list li:nth-child(1){
+    font-family: roboto,sans-serif;
+    padding: 5px;
+    font-size:30px;
+}
+.item-list li:nth-child(2){
+    font-size: 10px;
+    margin-bottom:10px;
+}
+
+.item-list li:nth-child(3){
+    color: #3ad6b2;
+    font-weight: bold;
+    font-size:30px;
+    margin-bottom: 20px;
+}
+
+.item-price span{
+    color:black;
+}
+
+
+.add-button{
+    width:150px !important;
+    padding: 10px !important;
+    margin:10px !important;
+    box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.49) !important;
+    border: none !important;
+    background-color: #6675df !important;
+    padding: 10px !important;
+    cursor: pointer !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    transition: all 0.25s !important;
+    color: #fff !important;
+}
+
+.add-button:hover{
+    background-color: #333333 !important;
+    color: #fff !important;
+}
+
+.form-control1 input{
+    width:70px;
+    height:10px;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+    border: none;
+    border: 1px solid #0e476d;
+}  
